@@ -37,7 +37,7 @@ https://forums.awsgametech.com/
 * **Compile GameLiftServerSDK with Visual Studio 2019**
 
   ```
-  Add environment variable: vs150comntools to your
+  Add environment variable: var name 'vs150comntools' to your user variable
   "...\VisualStudio\Common7\Tools"
   ```
 
