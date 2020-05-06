@@ -1,0 +1,9 @@
+{
+	"BuildId": "8834ed67-b192-477e-a616-6b035bf243f3",
+	"Modules": 
+	{
+		"AWSCore": "UE4Editor-AWSCore.dll",
+		"CognitoIdentity": "UE4Editor-CognitoIdentity.dll",
+		"GameLiftClientSDK": "UE4Editor-GameLiftClientSDK.dll"
+	}
+}
