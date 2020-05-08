@@ -67,7 +67,7 @@ https://forums.awsgametech.com/
   
 This error happens when I want to replace all source files related to aws with a new version of aws files.
   
-You could change `GameLiftClientSDK\Source\AWSCore\Public\aws\core\platform`  **time.h (or ctime.h)** to **AwsTime.h** to fix it.
+You could change `GameLiftClientSDK\Source\AWSCore\Public\aws\core\platform\`  **Time.h** to **AWSTime.h** to fix it.
   
 * **Resx file Problem**
 
