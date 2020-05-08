@@ -58,6 +58,29 @@ https://forums.awsgametech.com/
 
   It will also fix `GameLiftServerSDK`.h cannot be opened when in Editor Target.
 
+* **AWS Client Plugin Error**
+
+  ```
+  error C2039: 'clock_t' : is not a member of '`global namespace''
+  ....
+  ```
+  
+This error happens when I want to replace all source files related to aws with a new version of aws files.
+  
+You could change `GameLiftClientSDK\Source\AWSCore\Public\aws\core\platform`  **time.h (or ctime.h)** to **AwsTime.h** to fix it.
+  
+* **Resx file Problem**
+
+  ```
+  Couldn't process xxx file resx due to its being in the Internet or Restricted zone or having the mark of the web on the file
+  ```
+
+  Just find the file:
+
+  * right click the file
+  * tick the `unlock` 
+  * click `ok` to apply
+
 * **Run Client Application Error**
 
   ```
